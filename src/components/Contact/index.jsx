@@ -6,12 +6,12 @@ const Contact = () => {
     <div className="w-full  bg-gradient-to-r from-[#f9bc20] to-[#7da546] flex justify-center px-2 ">
       <div className="grid md:grid-cols-2  w-full lg:w-[1220px] py-4 ">
         <div>
-          <h1 className="text-[36px] leading-normal font-bold tracking-wide">
-            Let's discuss <br /> Your project
+          <h1 className="text-[24px] sm:text-[36px] leading-normal font-bold tracking-wide">
+            Let's discuss <br className="hidden sm:block" /> Your project
           </h1>
-          <p className="text-[15px] leading-5 font-medium tracking-wide my-3">
+          <p className="text-[10px] sm:text-[15px] leading-5 font-medium tracking-wide my-3">
             Let's figure out how to create an effective application,
-            <br />
+            <br className="hidden sm:block" />
             its cost and terms of its development
           </p>
         </div>
