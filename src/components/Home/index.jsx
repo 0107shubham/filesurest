@@ -33,7 +33,7 @@ const Home = () => {
       </div>
       <div className="grid w-full xl:w-[1220px] md:grid-cols-2  px-4 xl:px-0">
         <div ref={containerRef} className="space-y-6  h-fit">
-          <p className="text-[24px] sm:text-[39px] leading-tight font-bold tracking-wide mt-[120px]">
+          <p className="text-[18px] sm:text-[39px] leading-tight font-bold tracking-wide mt-[120px]">
             <span className="text-orange-500">User-Centric Excellence:</span>{" "}
             Our App Development services Tackles Your Pain Points
           </p>
@@ -47,7 +47,7 @@ const Home = () => {
             to Unparalleled Heights.
           </p>
           <div className="bg-white p-6 rounded-md shadow-md md:mx-auto my-4 md:my-0">
-            <p className="text-[16px] sm:text-[20px] leading-5 font-medium tracking-wide my-3">
+            <p className="text-[14px] sm:text-[20px] leading-5 font-medium tracking-wide my-3">
               Leave your contacts and we will call you back within 30 minutes
             </p>
             <form className="grid grid-cols-1 lg:grid-cols-3 gap-2 mt-10">

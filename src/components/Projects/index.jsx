@@ -18,9 +18,9 @@ const Projects = () => {
   return (
     <div
       id="cases"
-      className="w-full xl:w-[1220px] grid my-4 bg-[#f2f4f7] px-4 lg:px-4 md:px-8"
+      className="w-full xl:w-[1220px] grid my-4 bg-[#f2f4f7] px-2 lg:px-4 md:px-8"
     >
-      <h1 className="text-[18px] sm:text-[36px]  my-4">
+      <h1 className="text-[16px] sm:text-[36px]  my-4">
         Projects we are proud of
       </h1>
       <p className="w-full text-[12px] ms:text-[15px] font-normal leading-5 my-2">

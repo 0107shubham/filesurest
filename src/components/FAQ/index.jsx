@@ -41,8 +41,8 @@ const FAQ = () => {
               </button>
             </div>
 
-            <div className={`p-5   ${activeIndex === 1 ? "block" : "hidden"}`}>
-              <p className="mb-2 text-gray-500 dark:text-gray-400">
+            <div className={`p-2   ${activeIndex === 1 ? "block" : "hidden"}`}>
+              <p className="mb-2  text-[14px] text-black  leading-3 font-normal tracking-wide ">
                 Flowbite is an open-source library of interactive components
                 built on top of Tailwind CSS including buttons, dropdowns,
                 modals, navbars, and more.
@@ -75,7 +75,7 @@ const FAQ = () => {
             </div>
 
             <div className={`p-5   ${activeIndex === 2 ? "block" : "hidden"}`}>
-              <p className="mb-2  text-[15px] leading-5 font-semibold tracking-wide ">
+              <p className="mb-2  text-[14px] text-black  leading-3 font-normal tracking-wide ">
                 Development terms directly depend on the requirements for the
                 mobile application, the characteristics of the company, as well
                 as the wishes of the customer. <br /> <br /> <br />
@@ -115,7 +115,7 @@ const FAQ = () => {
             </div>
 
             <div className={`p-5   ${activeIndex === 3 ? "block" : "hidden"}`}>
-              <p className="mb-2 text-gray-500 dark:text-gray-400">
+              <p className="mb-2  text-[14px] text-black  leading-3 font-normal tracking-wide">
                 Flowbite is an open-source library of interactive components
                 built on top of Tailwind CSS including buttons, dropdowns,
                 modals, navbars, and more.
@@ -148,7 +148,7 @@ const FAQ = () => {
             </div>
 
             <div className={`p-5   ${activeIndex === 4 ? "block" : "hidden"}`}>
-              <p className="mb-2 text-gray-500 dark:text-gray-400">
+              <p className="mb-2  text-[14px] text-black  leading-3 font-normal tracking-wide">
                 Flowbite is an open-source library of interactive components
                 built on top of Tailwind CSS including buttons, dropdowns,
                 modals, navbars, and more.

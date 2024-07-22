@@ -6,8 +6,10 @@ const Media = () => {
     <div id="media" className="w-full lg:w-[1220px] ">
       <div className="w-full">
         <h1 className="text-[24px] sm:text-[36px] leading-normal ml-3">
-          Developed more than <span>100</span>
-          <br /> projects in <span>15</span> industries
+          Developed more than <span className="text-[#]">100</span>
+          <br className="hidden sm:block" /> projects in{" "}
+          <span className="text-[#80A948]">15</span> industries
+          <span className="text-[#80A948]">15</span> industries
         </h1>
 
         <div className="p-4 grid grid-cols-2 md:grid-cols-3 gap-2 sm:gap-5">
