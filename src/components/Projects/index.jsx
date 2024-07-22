@@ -29,11 +29,11 @@ const Projects = () => {
         worked with. We enjoy a long-term partnership
       </p>
       <div>
-        <div className="flex gap-4">
+        <div className="flex gap-1 sm:gap-4">
           {projects.map((project) => (
             <div
               key={project.id}
-              className={`mx-4 my-7 cursor-pointer ${
+              className={`mx-2 sm:mx-4 my-7 cursor-pointer ${
                 selectedProject === project.id
                   ? "active border-b-2 border-[#FFBA00]"
                   : ""
