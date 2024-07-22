@@ -9,8 +9,16 @@ const Services = () => {
     >
       <div className="w-full lg:w-[1220px]">
         <div className="flex justify-between items-center my-2 border-t border-b py-3 lg:ml-12 xl:ml-0">
-          <img src={planet} alt="planet1" className="w-[172px] h-[72px]  " />
-          <img src={planet} alt="planet2" className="w-[172px] h-[72px]" />
+          <img
+            src={planet}
+            alt="planet1"
+            className="w-[172px] h-[50px] sm:h-[72px]  "
+          />
+          <img
+            src={planet}
+            alt="planet2"
+            className="w-[172px]  h-[50px] sm:h-[72px]"
+          />
           <img
             src={planet}
             alt="planet3"
@@ -30,20 +38,20 @@ const Services = () => {
 
         <div className="w-full grid md:grid-cols-2 lg:ml-16 xl:ml-0">
           <div className="space-y-4">
-            <p className="text-[36px] font-bold leading-10">
+            <p className="text-[24px] sm:text-[36px] font-bold leading-10">
               Full development cycle{" "}
             </p>
-            <p className="text-[15px] font-medium">
+            <p className="text-[12px] sm:text-[15px] font-medium">
               We use proven technologies
             </p>
-            <div className="space-y-6">
+            <div className="space-y-3 sm:space-y-6">
               <p className="text-[20px] leading-6">Web</p>
-              <p className="text-[17px] font-normal left-6">
+              <p className="text-[13px] sm:text-[17px]  font-normal left-6">
                 PHP / Javascript / Node.JS / Web Socket / Socket.io / Vue.js/
                 Nuxt / MySQL / Laravel / GO lang / django / Python
               </p>
               <p className="text-[20px] leading-6">Mobile</p>
-              <p className="text-[17px] font-normal left-6">
+              <p className="text-[13px] sm:text-[17px]  font-normal left-6">
                 Swift / Kotlin / Alamofire / Firebase / CoreData / Room / Realm
                 / Coroutine / RxJava / RxSwift / Unit Test / Navigation
               </p>

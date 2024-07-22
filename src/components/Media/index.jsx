@@ -10,7 +10,7 @@ const Media = () => {
           <br /> projects in <span>15</span> industries
         </h1>
 
-        <div className="p-4 grid grid-cols-2 md:grid-cols-3 gap-5">
+        <div className="p-4 grid grid-cols-2 md:grid-cols-3 gap-2 sm:gap-5">
           <div className="flex items-center">
             <div className="bg-white p-3 rounded-full">
               <img
