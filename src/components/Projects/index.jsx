@@ -20,7 +20,7 @@ const Projects = () => {
       id="cases"
       className="w-full xl:w-[1220px] grid my-4 bg-[#f2f4f7] px-2 lg:px-4 md:px-8"
     >
-      <h1 className="text-[16px] sm:text-[36px]  my-4">
+      <h1 className="text-[20px] sm:text-[36px] font-semibold my-4">
         Projects we are proud of
       </h1>
       <p className="w-full text-[12px] ms:text-[15px] font-normal leading-5 my-2">
@@ -59,13 +59,13 @@ const Projects = () => {
                       ?.details
                   }
                 </div>
-                <p className="text-[10px] sm:text-[15px] leading-3 sm:leading-6 font-normal">
+                <p className="text-[13px] sm:text-[15px] leading-3 sm:leading-6 font-normal">
                   Crafted an innovative rental property management app,
                   seamlessly integrating secure login, absence registration, and
                   a tenant notice board. Elevating the resident experience with
                   user-friendly design and efficient communication channels
                 </p>
-                <p className="text-[12px] sm:text-[17px] leading-3 sm:leading-6 font-normal my-2">
+                <p className="text-[14px] sm:text-[17px] leading-3 sm:leading-6 font-normal my-2">
                   Business analysis / iOS / Android / QA / UI/UX Design
                 </p>
                 <div className="flex gap-4">

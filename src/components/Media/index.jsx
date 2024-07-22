@@ -9,7 +9,6 @@ const Media = () => {
           Developed more than <span className="text-[#]">100</span>
           <br className="hidden sm:block" /> projects in{" "}
           <span className="text-[#80A948]">15</span> industries
-          <span className="text-[#80A948]">15</span> industries
         </h1>
 
         <div className="p-4 grid grid-cols-2 md:grid-cols-3 gap-2 sm:gap-5">
