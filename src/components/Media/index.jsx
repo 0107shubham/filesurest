@@ -5,7 +5,7 @@ const Media = () => {
   return (
     <div id="media" className="w-full lg:w-[1220px] ">
       <div className="w-full">
-        <h1 className="text-[24px] sm:text-[36px] leading-normal">
+        <h1 className="text-[24px] sm:text-[36px] leading-normal ml-3">
           Developed more than <span>100</span>
           <br /> projects in <span>15</span> industries
         </h1>
