@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <div
       id="services"
-      className="w-full flex justify-center bg-[#ffffff] my-3 px-8 lg:px-0 "
+      className="w-full flex justify-center bg-[#ffffff] my-3 px-4 sm:px-8 lg:px-0 "
     >
       <div className="w-full lg:w-[1220px]">
         <div className="flex justify-between items-center my-2 border-t border-b py-3 lg:ml-12 xl:ml-0">
