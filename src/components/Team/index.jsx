@@ -7,12 +7,12 @@ const Team = () => {
       <h1 className="text-[36px] lg:hidden leading-normal font-bold tracking-wide">
         Our team
       </h1>
-      <div className="w-full flex flex-col lg:flex-row py-12 lg:px-20 xl:px-0">
-        <div className=" order-2 space-y-8 lg:order-1 pl-4">
+      <div className="w-full flex flex-col lg:flex-row  lg:px-20 xl:px-0">
+        <div className=" order-2 space-y-8 lg:order-1 pl-4 lg:w-[50%]">
           <h1 className="text-[36px]  w-fit hidden lg:block leading-normal font-bold ">
             Our team
           </h1>
-          <p className="text-[15px] leading-5 font-medium w-full my-3">
+          <p className="text-[15px] leading-5 font-medium w-full ">
             Thousand is a full-cycle digital production company with its own
             product analytics, design, web and mobile development.
           </p>
@@ -42,7 +42,7 @@ const Team = () => {
               </p>
             </div>
           </div>
-          <p className="text-[15px] leading-5 font-medium my-3">
+          <p className="text-[15px] leading-5 font-medium ">
             All the necessary specialists - from a designer to a tester - are on
             our staff. We hire the best specialists in the market. It's
             expensive but worth it
