@@ -7,7 +7,7 @@ import { BiMobileAlt } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <div className="bg-[#111111] w-[1220px]">
+    <div id="contact" className="bg-[#111111] w-[1220px]">
       <div className="w-full flex justify-center ">
         <img
           src={logofooter}

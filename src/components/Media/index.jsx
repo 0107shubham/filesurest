@@ -3,14 +3,14 @@ import socilaMedia from "../../assets/socialmedia.png";
 
 const Media = () => {
   return (
-    <div className="w-[1220px] ">
-      <div className="">
-        <h1 className="text-[36px] leading-normal">
+    <div id="media" className="w-full lg:w-[1220px] ">
+      <div className="w-full">
+        <h1 className="text-[24px] sm:text-[36px] leading-normal">
           Developed more than <span>100</span>
           <br /> projects in <span>15</span> industries
         </h1>
 
-        <div className="p-4 grid grid-cols-3 gap-5">
+        <div className="p-4 grid grid-cols-2 md:grid-cols-3 gap-5">
           <div className="flex items-center">
             <div className="bg-white p-3 rounded-full">
               <img

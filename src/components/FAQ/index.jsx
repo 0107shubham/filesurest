@@ -8,7 +8,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="w-full grid grid-cols-2 gap-4">
+    <div className="w-full grid grid-cols-2 gap-4 " id="faq">
       <div className="border-t border-b">
         <div
           type="button"

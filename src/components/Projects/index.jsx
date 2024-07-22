@@ -16,7 +16,7 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(1);
 
   return (
-    <div className="w-[1220px] grid my-4 bg-[#f2f4f7]">
+    <div id="cases" className="w-[1220px] grid my-4 bg-[#f2f4f7]">
       <h1 className="text-[36px] font-[Inter] my-4">
         Projects we are proud of
       </h1>
