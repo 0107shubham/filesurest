@@ -20,10 +20,10 @@ const Projects = () => {
       id="cases"
       className="w-full xl:w-[1220px] grid my-4 bg-[#f2f4f7] px-4 lg:px-4 md:px-8"
     >
-      <h1 className="text-[24px] sm:text-[36px] font-[Inter] my-4">
+      <h1 className="text-[20px] sm:text-[36px]  my-4">
         Projects we are proud of
       </h1>
-      <p className="w-full text-[12px] ms:text-[15px] font-medium leading-5 my-2">
+      <p className="w-full text-[12px] ms:text-[15px] font-normal leading-5 my-2">
         Our software development company is truly proud of the wonderful clients
         we have <br />
         worked with. We enjoy a long-term partnership
@@ -33,7 +33,7 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className={`mx-2 sm:mx-4 my-7 cursor-pointer ${
+              className={`mx-2 sm:mx-4 my-7 text-[12px] sm:text-[17px] cursor-pointer ${
                 selectedProject === project.id
                   ? "active border-b-2 border-[#FFBA00]"
                   : ""
@@ -59,13 +59,13 @@ const Projects = () => {
                       ?.details
                   }
                 </div>
-                <p className="text-[15px] leading-5 font-normal">
+                <p className="text-[10px] sm:text-[15px] leading-3 sm:leading-6 font-normal">
                   Crafted an innovative rental property management app,
                   seamlessly integrating secure login, absence registration, and
                   a tenant notice board. Elevating the resident experience with
                   user-friendly design and efficient communication channels
                 </p>
-                <p className="text-[17px] leading-6 font-normal my-2">
+                <p className="text-[12px] sm:text-[17px] leading-3 sm:leading-6 font-normal my-2">
                   Business analysis / iOS / Android / QA / UI/UX Design
                 </p>
                 <div className="flex gap-4">
