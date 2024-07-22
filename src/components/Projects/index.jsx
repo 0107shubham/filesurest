@@ -6,23 +6,27 @@ import googleplay from "../../assets/googleplay.png";
 import projectimage from "../../assets/projectimage.png";
 
 const projects = [
-  { id: 1, name: "Project 1", details: "Details of Project 1" },
-  { id: 2, name: "Project 2", details: "Details of Project 2" },
-  { id: 3, name: "Project 3", details: "Details of Project 3" },
-  { id: 4, name: "Project 4", details: "Details of Project 4" },
+  { id: 1, name: "Project 1", details: " Project 1" },
+  { id: 2, name: "Project 2", details: " Project 2" },
+  { id: 3, name: "Project 3", details: "Project 3" },
+  { id: 4, name: "Project 4", details: " Project 4" },
 ];
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(1);
 
   return (
-    <div id="cases" className="w-[1220px] grid my-4 bg-[#f2f4f7]">
-      <h1 className="text-[36px] font-[Inter] my-4">
+    <div
+      id="cases"
+      className="w-full xl:w-[1220px] grid my-4 bg-[#f2f4f7] px-4 lg:px-4 md:px-8"
+    >
+      <h1 className="text-[24px] sm:text-[36px] font-[Inter] my-4">
         Projects we are proud of
       </h1>
-      <p className="w-[50vw] text-[15px] font-medium leading-5 my-2">
+      <p className="w-full text-[12px] ms:text-[15px] font-medium leading-5 my-2">
         Our software development company is truly proud of the wonderful clients
-        we have worked with. We enjoy a long-term partnership
+        we have <br />
+        worked with. We enjoy a long-term partnership
       </p>
       <div>
         <div className="flex gap-4">
@@ -31,7 +35,7 @@ const Projects = () => {
               key={project.id}
               className={`mx-4 my-7 cursor-pointer ${
                 selectedProject === project.id
-                  ? "active border-b-2 border-purple-400"
+                  ? "active border-b-2 border-[#FFBA00]"
                   : ""
               }`}
               onClick={() =>
@@ -45,13 +49,16 @@ const Projects = () => {
           ))}
         </div>
         {selectedProject && (
-          <div className="">
-            {
-              projects.find((project) => project.id === selectedProject)
-                ?.details
-            }
-            <div className="grid grid-cols-2 ">
-              <div>
+          <div>
+            <div className="grid lg:grid-cols-2 ">
+              <div className="space-y-10">
+                <div className="text-[36px] leading-normal font-bold tracking-wide ">
+                  {" "}
+                  {
+                    projects.find((project) => project.id === selectedProject)
+                      ?.details
+                  }
+                </div>
                 <p className="text-[15px] leading-5 font-normal">
                   Crafted an innovative rental property management app,
                   seamlessly integrating secure login, absence registration, and
@@ -116,7 +123,7 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-              <div>
+              <div className="bg-purple-200 hidden lg:block">
                 <img
                   src={projectimage}
                   alt="projectimage"
