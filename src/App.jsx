@@ -12,8 +12,8 @@ import Team from "./components/Team";
 
 function App() {
   return (
-    <div className="flex flex-col items-center bg-[#f2f4f7]">
-      <Navbar />
+    <div className="flex flex-col items-center bg-[#f2f4f7] !scroll-smooth">
+      {/* <Navbar /> */}
       <Home />
       <Services />
       <Media />

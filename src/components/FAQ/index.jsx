@@ -10,11 +10,11 @@ const FAQ = () => {
   };
 
   return (
-    <div className="my-10 w-full xl:w-[1220px] bg-white px-4">
+    <div id="faq" className="my-10 w-full xl:w-[1220px] bg-white px-4">
       <h1 className="text-[36px] leading-normal font-bold tracking-wide">
         FAQS
       </h1>
-      <div className=" grid lg:grid-cols-2 gap-4 " id="faq">
+      <div className=" grid lg:grid-cols-2 gap-4 ">
         <div>
           <div className="border-t border-b">
             <div

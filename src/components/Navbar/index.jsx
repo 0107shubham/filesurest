@@ -12,82 +12,54 @@ const Navbar = () => {
   console.log("sidebar", isOpen);
 
   return (
-    <div className="h-[92px] bg-[#ffff]  w-[100vw] lg:w-[1220px] shadow-lg my-2">
+    <div className="h-[60px] lg:h-[92px] bg-[#ffff]  w-[100vw] lg:w-[1220px] shadow-lg my-2">
       <header className="hidden lg:flex justify-around  items-center">
         <div className="py-2">
-          <img src={logo} alt="logo" className="w-[174px] " />
+          <a href="#home">
+            <img src={logo} alt="logo" className="h-[70px] w-[174px] " />
+          </a>{" "}
         </div>
         <ul className="flex gap-3">
           <li>
             {" "}
-            <Link
-              activeClass="active"
-              to="services"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-              className="text-black  hover:font-semibold active:border-b text-[14px] leading-4 p-4"
-            >
-              Services
-            </Link>{" "}
+            <a href="#services">Services</a>{" "}
           </li>
           <li>
             {" "}
-            <Link
-              activeClass="active"
-              to="media"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
+            <a
+              href="#media"
               className="text-black  hover:font-semibold active:border-b text-[14px] leading-4 p-4"
             >
               Media
-            </Link>{" "}
+            </a>{" "}
           </li>
           <li>
             {" "}
-            <Link
-              activeClass="active"
-              to="cases"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
+            <a
+              href="#cases"
               className="text-black  hover:font-semibold active:border-b text-[14px] leading-4 p-4"
             >
               Cases
-            </Link>{" "}
+            </a>{" "}
           </li>
 
           <li>
             {" "}
-            <Link
-              activeClass="active"
-              to="faq"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
+            <a
+              href="#faq"
               className="text-black  hover:font-semibold active:border-b text-[14px] leading-4 p-4"
             >
               FAQ{" "}
-            </Link>{" "}
+            </a>{" "}
           </li>
           <li>
             {" "}
-            <Link
-              activeClass="active"
-              to="contact"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
+            <a
+              href="#contact"
               className="text-black  hover:font-semibold active:border-b text-[14px] leading-4 p-4"
             >
               Contacts
-            </Link>{" "}
+            </a>{" "}
           </li>
         </ul>
         <ul className="flex  gap-3 ">
@@ -108,7 +80,7 @@ const Navbar = () => {
       </header>
 
       <div className="lg:hidden">
-        <div className="flex justify-between px-4">
+        <div className="flex justify-between px-2">
           <button
             className="text-blue-700  font-medium rounded-lg  px-5 py-1.5 mb-2"
             type="button"
@@ -117,7 +89,7 @@ const Navbar = () => {
             <GiHamburgerMenu className="text-[32px]" />
           </button>
           <div className="py-2">
-            <img src={logo} alt="logo" className="w-[174px] " />
+            <img src={logo} alt="logo" className="h-[40px] w-[174px] " />
           </div>
         </div>
 
@@ -164,82 +136,52 @@ const Navbar = () => {
             <span className="sr-only">Close menu</span>
           </button>
 
-          <ul className="flex flex-col gap-5">
+          <ul className="flex flex-col gap-5 justify-start">
             <li>
-              {" "}
-              <Link
-                activeClass="active"
-                to="services"
-                spy={true}
-                smooth={true}
+              <a
                 onClick={() => setIsOpen(false)}
-                offset={50}
-                duration={500}
                 className="text-black  hover:font-semibold active:border-b text-[14px] leading-4 p-4"
+                href="#services"
               >
                 Services
-              </Link>{" "}
+              </a>
             </li>
             <li>
-              {" "}
-              <Link
-                activeClass="active"
-                to="media"
-                spy={true}
-                smooth={true}
+              <a
                 onClick={() => setIsOpen(false)}
-                offset={50}
-                duration={500}
+                href="#media"
                 className="text-black  hover:font-semibold active:border-b text-[14px] leading-4 p-4"
               >
                 Media
-              </Link>{" "}
+              </a>
             </li>
             <li>
-              {" "}
-              <Link
-                activeClass="active"
-                to="cases"
-                spy={true}
-                smooth={true}
+              <a
                 onClick={() => setIsOpen(false)}
-                offset={50}
-                duration={500}
+                href="#cases"
                 className="text-black  hover:font-semibold active:border-b text-[14px] leading-4 p-4"
               >
                 Cases
-              </Link>{" "}
+              </a>
             </li>
 
             <li>
-              {" "}
-              <Link
-                activeClass="active"
-                to="faq"
-                spy={true}
-                smooth={true}
+              <a
                 onClick={() => setIsOpen(false)}
-                offset={50}
-                duration={500}
+                href="#faq"
                 className="text-black  hover:font-semibold active:border-b text-[14px] leading-4 p-4"
               >
-                FAQ{" "}
-              </Link>{" "}
+                FAQ
+              </a>
             </li>
             <li>
-              {" "}
-              <Link
-                activeClass="active"
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={50}
+              <a
                 onClick={() => setIsOpen(false)}
-                duration={500}
+                href="#contact"
                 className="text-black  hover:font-semibold active:border-b text-[14px] leading-4 p-4"
               >
                 Contacts
-              </Link>{" "}
+              </a>
             </li>
           </ul>
           <ul className="flex flex-col gap-3 mt-5">
