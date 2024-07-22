@@ -18,8 +18,8 @@ function App() {
       <Projects />
       <Contact />
       <Development />
-      {/* <Team />
-      <FAQ />
+      <Team />
+      {/* <FAQ />
       <Footer /> */}
     </div>
   );
